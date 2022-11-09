@@ -7,10 +7,6 @@ section {
   background-color: white;
 }
 
-.myself {
-  margin: 0;
-}
-
 .hero{
   background-color: #1c1d25;
   height: 100vh;
@@ -102,4 +98,66 @@ a {
 
 .social {
   margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.information p {
+  padding-top: 10px;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px rgb(199, 189, 189);
+  margin: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-image {
+  margin-top:25;
+  width: 250px;
+  border-radius: 125px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
 }
