@@ -94,7 +94,7 @@ p {
   padding-bottom: 200px;
 }
 
-#logo {
+.logo {
   position: absolute;
   margin-left: 20px;
   margin-top: 20px;
