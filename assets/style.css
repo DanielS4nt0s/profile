@@ -47,11 +47,6 @@ h2 {
   font-size: 50px;
 }
 
-h3 {
-  font-size: 50px;
-  color: #FFF;
-}
-
 p {
   margin: 0;
   font-size: 30px;
@@ -122,12 +117,14 @@ p {
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  background-color: #B2B2B2;
 }
 
 .headshot {
   width: 300px;
-  border-radius: 150px;
+  border-radius: 50px;
   margin-left: 80px;
+
 }
 
 .headshot-container {
@@ -138,17 +135,15 @@ p {
 .project-card {
   width: 300px;
   height: 500px;
+  border-radius: 50px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
   margin: 20px;
+  background-color: aliceblue;
 }
 
 .project-container {
   display: flex;
   justify-content: space-evenly;
-}
-
-.tech-container {
-  background-color: #1c1d25;
 }
 
 .skills-content {
