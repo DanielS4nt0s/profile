@@ -47,6 +47,11 @@ h2 {
   font-size: 50px;
 }
 
+h3 {
+  font-size: 50px;
+  color: #FFF;
+}
+
 p {
   margin: 0;
   font-size: 30px;
@@ -140,6 +145,21 @@ p {
 .project-container {
   display: flex;
   justify-content: space-evenly;
+}
+
+.tech-container {
+  background-color: #1c1d25;
+}
+
+.skills-content {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.tech-icons {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
