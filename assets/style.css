@@ -60,7 +60,6 @@ p {
 
 .hero-area {
   display: flex;
-  height: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -71,7 +70,7 @@ p {
 }
 
 .button {
-  width: 200px;
+  width: 240px;
   height: 55px;
   border-radius: 30px;
   background-color: coral;
@@ -95,12 +94,14 @@ p {
   padding-bottom: 200px;
 }
 
-.logo {
+#logo {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
   height: 100px;
   width: 100px;
-  margin-top: 20px;
-  margin-left: 20px;
 }
+
 .social {
   margin: 20px;
 }
