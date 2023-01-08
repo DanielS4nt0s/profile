@@ -9,7 +9,6 @@ section {
 
 .hero {
   background-color: #1c1d25;
-  height: 100vh;
   color: white;
   font-size: 40px;
 }
@@ -96,7 +95,6 @@ p {
 }
 
 .logo {
-  position: absolute;
   margin-left: 20px;
   margin-top: 20px;
   height: 100px;
@@ -172,12 +170,17 @@ p {
   padding: 80px;
 }
 
-.learning-img {
-  margin-top: 50px;
-  margin-left: 15%;
+.text-udemy{
+margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 1000px) {
+.learning-img {
+ width: 100%;
+ margin: auto;
+
+}
+
+@media only screen and (max-width: 1200px) {
   .project-container {
       display: flex;
       flex-wrap: wrap;
@@ -215,7 +218,7 @@ a {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .hamburger {
     display: block;
     border: 0;
@@ -224,6 +227,10 @@ a {
     font-size: 40px;
     margin: 20px;
     align-self: flex-end;
+  }
+
+  body {
+    width: 100%;
   }
 
   ul {
